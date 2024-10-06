@@ -81,11 +81,12 @@ ul {
 
 .sign-up{
     color: #F9FAF8;
-    padding: 8px 32px;
-    border-radius: 5px;
+    padding: 13px 45px;
+    border-radius: 8px;
     background-color:#3882F6;
     border: none;
     font-weight: 600;
+    font-size: 16px;
 }
 
 .random-information {
@@ -94,7 +95,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding: 48px;
+    padding: 100px 470px;
 }
 
 .random-content{
@@ -128,6 +129,27 @@ ul {
     text-align: center;
     margin-top: 10px;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    padding: 100px 470px;
+}
+
+.quote-credits {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    align-self: self-end;
+}
+
 
 
 
