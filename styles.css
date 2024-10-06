@@ -94,7 +94,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 70px;
     padding: 100px 470px;
 }
 
@@ -148,6 +148,42 @@ ul {
     font-weight: 600;
     font-size: 24px;
     align-self: self-end;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 350px;
+}
+
+.sign-up-card {
+    background-color: #3882F6;
+    padding: 50px 250px;
+    display: flex;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.sign-up-text{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.sign-up-text-header{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sign-up-card button {
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 5px 48px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 
