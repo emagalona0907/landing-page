@@ -66,16 +66,17 @@ ul {
 
 .secondary-text {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #e5e7eb;  
 }
 
 .placeholder-image {
     height: 300px;
     width: 600px;
-    background-color: #e5e7eb;
+    background-color: #4c4e52;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    color: #e5e7eb;    
 }
 
 .sign-up{
@@ -86,4 +87,47 @@ ul {
     border: none;
     font-weight: 600;
 }
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 48px;
+}
+
+.random-content{
+    display: flex;
+    gap: 60px;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-card {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+
+.cards span {
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
 
